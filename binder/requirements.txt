@@ -1,0 +1,6 @@
+ipykernel==6.13.0
+itkdb==0.4.0
+jupyter==1.0.0
+rich==13.3.2
+textual==0.11.1
+textual-filedrop @ git+https://github.com/kratsg/textual-filedrop.git#master
