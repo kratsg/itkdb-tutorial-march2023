@@ -2,7 +2,7 @@ from textual.app import App, ComposeResult
 from textual_filedrop import FileDrop
 
 
-class FileDropApp(App):
+class EOSUploadApp(App):
     def compose(self) -> ComposeResult:
         yield FileDrop(id="filedrop")
 
@@ -18,5 +18,5 @@ class FileDropApp(App):
 
 
 if __name__ == "__main__":
-    app = FileDropApp()
+    app = EOSUploadApp()
     app.run()
