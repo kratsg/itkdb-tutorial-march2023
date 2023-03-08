@@ -9,16 +9,6 @@ class EOSUploadApp(App):
         }
     """
 
-    BINDINGS = [("q", "exit", "Quit"), ("d", "toggle_dark", "Toggle dark mode")]
-
-    def action_toggle_dark(self) -> None:
-        """An action to toggle dark mode."""
-        self.dark = not self.dark
-
-    def action_exit(self) -> None:
-        """An action to exit."""
-        self.exit()
-
     def compose(self) -> ComposeResult:
         yield FileDrop(id="filedrop")
 
